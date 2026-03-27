@@ -28,7 +28,8 @@
       "ToolSearch",
       "WebFetch",
       "WebSearch",
-      "Write"
+      "Write",
+      "mcp__langfuse"
     ],
     "deny": [
       "Bash(rm -rf /)",
@@ -59,8 +60,16 @@
   },
   "env": {
     "TRACE_TO_LANGFUSE": "true",
-    "LANGFUSE_PUBLIC_KEY": "pk-lf-fbe57c94-94ad-4877-9824-f1b8d9d7c860",
-    "LANGFUSE_SECRET_KEY": "sk-lf-1cfaabee-6e23-453a-b3b9-116f8b746236",
-    "LANGFUSE_BASE_URL": "http://localhost:3000"
+    "LANGFUSE_PUBLIC_KEY": "pk-lf-462eb171-46e1-4ea7-a2a6-026a4ac86c52",
+    "LANGFUSE_SECRET_KEY": "sk-lf-3e8318f7-df29-4c58-90af-6165a11e0bc6",
+    "LANGFUSE_BASE_URL": "http://localhost:3000",
+    "ANTHROPIC_BASE_URL": "http://localhost:4000",
+    "ANTHROPIC_API_KEY": "sk-Y1H-Ak3g_slhJ4B4Qv5rdQ",
+    "ANTHROPIC_AUTH_TOKEN": "sk-Y1H-Ak3g_slhJ4B4Qv5rdQ",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "qwen3-coder",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "qwen3-coder",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "qwen3-coder",
+    "CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS": "1",
+    "CLAUDE_CODE_ATTRIBUTION_HEADER": "0"
   }
 }
